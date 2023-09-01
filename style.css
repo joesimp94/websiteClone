@@ -1,8 +1,14 @@
+@font-face{
+  font-family: "AppleFont";
+src: url(SF-Pro-Text-Regular.otf);
+}
+
+
 nav {
     background-color: white;
     padding: 0px 22px;
     height:44px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
 }
 
 .navbar {
@@ -34,11 +40,19 @@ nav {
 
   .text a{ 
     text-decoration: none;
-    color:black;
+    color:#6e6e73;
     text-align: left;
     font-size: 13px;
     margin: 0px 14px;
   }
+
+  h1{
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0px;
+    padding: 0px;
+  }
+
 
   #imagePanel1{
     display: flex;
@@ -51,15 +65,18 @@ nav {
     background-position:center;
   }
 
+#imagePanel1 a{
+  color: #2997ff;
+}
+
   .img1txt{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
+    font-family: AppleFont;
   }
 
   #link1{
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
     text-align: center;
   }
 
@@ -74,15 +91,19 @@ nav {
     background-position:center;
   }
 
+  #imagePanel2 a{
+    color: #2997ff;
+  }
+
   .img2txt{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
     font-style: normal;
   }
 
   #link2 {
-    text-decoration:underline;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    font-family: AppleFont;
     text-align: center;
   }
 
@@ -97,15 +118,19 @@ nav {
     background-position:center;
   }
 
+#imagePanel3 a{
+  color: #2997ff;
+}
+
   .img3txt{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
     font-style: normal;
   }
 
   #link3{
-    text-decoration:underline;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    font-family: AppleFont;
     text-align: center;
   }
 
@@ -123,6 +148,10 @@ nav {
     background-position: center;
     background-size:contain;
   }
+  .imageGrid a{
+      color: #2997ff;
+      text-decoration: none;
+    }
 
   #gridimg1{
     background-image: url(./promo_apple_event_september__c1zbjahmv18i_medium_2x.jpg);
@@ -130,15 +159,17 @@ nav {
 
   .grid1txt{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
     font-style: normal;
     color:white;
   }
 
   #link4 {
-    text-decoration:underline;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    font-family: AppleFont;
     text-align: center;
+    margin: 0 auto;
+    display:block;
   }
 
   #gridimg2{
@@ -147,33 +178,125 @@ nav {
 
   .grid2txt{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: AppleFont;
     font-style: normal;
     color:white;
   }
 
-  #link5 {
-    text-decoration:underline;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+  .link5 {
+    text-decoration:none;
+    font-family: AppleFont;
+    margin: 0 auto;
+    display:block;
+    text-align:center
   }
 
   #gridimg3{
     background-image: url(./promo_ipadpro_refresh__evi9utuixwuq_medium_2x.jpg);
   }
-
+  .M2{
+    display: inline-block;
+    margin-left: 4px;
+    height: 33px;
+    width: 33px;
+  }
+  .grid3txt{
+    text-align: center;
+    font-family: AppleFont;
+    font-style: normal;
+    color:white;
+  }
+  .link6 {
+    text-decoration:none;
+    font-family: AppleFont;
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+  }
   #gridimg4{
     background-image: url(./promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium_2x.jpg);
   }
 
+  .watch8{
+    width: 150px;
+    height:50px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .grid4txt{
+    text-align: center;
+    font-family: AppleFont;
+    font-style: normal;
+    color:white;
+  }
+  .link7 {
+    text-decoration:none;
+    font-family: AppleFont;
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+  }
   #gridimg5{
     background-image: url(./promo_airpods_pro_avail__gaxggskofx6y_medium_2x.jpg) ;
   }
 
+  .grid5txt{
+    text-align: center;
+    font-family: AppleFont;
+    font-style: normal;
+    color:white;
+  }
+  .link8 {
+    text-decoration:none;
+    font-family: AppleFont;
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+  }
+  .grid6txt{
+    text-align: center;
+    font-family: AppleFont;
+    font-style: normal;
+    color:#030202;
+  }
+  .link9 {
+    text-decoration:none;
+    font-family: AppleFont;
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+  }
+
+  .tradein {
+    width: 220px;
+    height:50px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+  }
   #gridimg6{
     background-image: url(./iphone_tradein_promo__d5au3rkw5kuq_medium_2x.jpg)
   }
 
+.footnotes {
+  box-sizing: content-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(210, 210, 215);
+  border-bottom-width: 1px;
+}
+
+  footer{
+    background-color: #f5f5f7;
+    font-family: AppleFont;
+    font-size: 12px;
+    color: #6e6e73;
+  }
+
+  footer a{
+    color: #424245
+  }
 
   @media(max-width: 1150px) {
 
