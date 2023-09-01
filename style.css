@@ -1,0 +1,191 @@
+nav {
+    background-color: white;
+    padding: 0px 22px;
+    height:44px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    box-sizing: border-box;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 44px;
+  }
+
+
+  #hamburger div{
+    height: 1px;
+    width: 25px;
+    background-color: rgb(29, 29, 31);
+    margin: 6px 0px;
+  }
+
+#hamburger{
+  display:none;
+}
+
+  .icon{
+    margin: 0px 14px;
+  }
+
+  .text a{ 
+    text-decoration: none;
+    color:black;
+    text-align: left;
+    font-size: 13px;
+    margin: 0px 14px;
+  }
+
+  #imagePanel1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 569px;
+    width: 100vw;
+    background-image: url(./hero_bts2023_startframe__f787lg06y3ue_large_2x.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+
+  .img1txt{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+  }
+
+  #link1{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  #imagePanel2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 569px;
+    width: 100vw;
+    background-image: url(./hero_macbook_air_15_midnight__ct0pgwizvree_large_2x.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+
+  .img2txt{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+  }
+
+  #link2 {
+    text-decoration:underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  #imagePanel3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 569px;
+    width: 100vw;
+    background-image: url(./hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+
+  .img3txt{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+  }
+
+  #link3{
+    text-decoration:underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  .imageGrid{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+  }
+
+  .imageGrid div{
+    width: calc(50% - 10px);
+    margin: 5px;
+    height: 580px;
+    background-position: center;
+    background-size:contain;
+  }
+
+  #gridimg1{
+    background-image: url(./promo_apple_event_september__c1zbjahmv18i_medium_2x.jpg);
+  }
+
+  .grid1txt{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color:white;
+  }
+
+  #link4 {
+    text-decoration:underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  #gridimg2{
+    background-image: url(./promo_iphone14pro_spring__c7pyovk04j2a_medium_2x.jpg);
+  }
+
+  .grid2txt{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color:white;
+  }
+
+  #link5 {
+    text-decoration:underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  #gridimg3{
+    background-image: url(./promo_ipadpro_refresh__evi9utuixwuq_medium_2x.jpg);
+  }
+
+  #gridimg4{
+    background-image: url(./promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium_2x.jpg);
+  }
+
+  #gridimg5{
+    background-image: url(./promo_airpods_pro_avail__gaxggskofx6y_medium_2x.jpg) ;
+  }
+
+  #gridimg6{
+    background-image: url(./iphone_tradein_promo__d5au3rkw5kuq_medium_2x.jpg)
+  }
+
+
+  @media(max-width: 1150px) {
+
+    nav{
+      height: 50px;
+    }
+
+    .text a{
+      display: none;
+    }
+
+    #hamburger {
+      display:block
+    }
+  }
