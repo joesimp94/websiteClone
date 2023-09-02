@@ -3,6 +3,9 @@
 src: url(SF-Pro-Text-Regular.otf);
 }
 
+*{
+  margin: 0;
+}
 
 nav {
     background-color: white;
@@ -285,6 +288,7 @@ nav {
   border-bottom-style: solid;
   border-bottom-color: rgb(210, 210, 215);
   border-bottom-width: 1px;
+  padding: 22px 17px 22px 11px;
 }
 
   footer{
@@ -296,6 +300,14 @@ nav {
 
   footer a{
     color: #424245
+  }
+
+  .directoryColumn{
+    box-sizing: content-box;
+    display: block;
+    flex-basis: 25%;
+    text-size-adjust: 100%;
+    font-size: 12px;
   }
 
   @media(max-width: 1150px) {
